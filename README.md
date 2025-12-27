@@ -171,6 +171,27 @@ gantt
 | **🎯 Mission** | Objectifs définis (périmètre / résultat), livrables identifiés (audit, architecture, intégration) |
 | **⏱️ Temps passé** | Facturation à l'heure, à la journée ou à la session, adapté à l'accompagnement et au support |
 
+---
+
+## 💡 Utilisation et inspiration
+
+Vous êtes libre de vous inspirer de ce profil ! Si vous l'utilisez comme source d'inspiration ou réutilisez des éléments : 
+
+- **Un petit crédit fait toujours plaisir** 😊 — Mentionner [@Regis-Scyeur](https://github.com/Regis-Scyeur) 
+- **Pour les images et contenus créatifs** — Merci de conserver mon nom lors du partage
+- **N'hésitez pas à me taguer** — J'adore voir comment mon travail inspire les autres ! 
+
+### 📄 Licence
+
+- **Code** : MIT License — Utilisez librement ! 
+- **Images & Contenu créatif** : CC BY 4.0 — Partagez avec attribution
+
+> ℹ️ Cette licence concerne uniquement ce profil. Chaque dépôt a sa propre licence. 
+
+Consultez le fichier [LICENSE](./LICENSE) pour plus de détails.
+
+---
+
 ## 📫 Me Contacter
 
 <div align="center">
