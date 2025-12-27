@@ -16,7 +16,7 @@
 
 Je suis **Régis Scyeur, Digital Transformation Architect, Lead Developer, Coach**, basé entre la Belgique et le Maroc. 
 
-**Multi-potentiel** par nature, je travaille avec des PME qui veulent **vraiment** faire avancer leur transformation digitale — pas juste empiler des outils, mais créer de la cohérence, de la valeur, et faire en sorte que tout fonctionne ensemble.
+**Multi-potentiel** par nature, je travaille avec des **PME** et **ETI** qui veulent **vraiment** faire avancer leur transformation digitale — pas juste empiler des outils, mais créer de la cohérence, de la valeur, de l'adhésion, et faire en sorte que tout fonctionne ensemble.
 
 ## 🦓 Zebra Puma Services ✨ Un Autre Moi Coaching
 
