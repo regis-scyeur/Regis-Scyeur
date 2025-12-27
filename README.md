@@ -193,7 +193,7 @@ Consultez le fichier [LICENSE](./LICENSE) pour plus de détails.
 
 **🦓 [Zebra Puma Services](https://zebrapuma.be)** • **🧠 [Un Autre Moi Coaching](https://unautremoi.org/)**
 
-**[![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=rscyeur&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rscyeur/)** 
+**[![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=regis-scyeur&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/regis-scyeur/)** 
 
 </div>
 
@@ -201,7 +201,7 @@ Consultez le fichier [LICENSE](./LICENSE) pour plus de détails.
 
 - **[Zebra Puma Services](https://zebrapuma.be)** - Transformation Digitale pour PME
 - **[Un Autre Moi Coaching](https://unautremoi.org/)** - Coaching PNL & Développement Personnel
-- **[LinkedIn](https://www.linkedin.com/in/rscyeur)** - Profil professionnel & Articles
+- **[LinkedIn](https://www.linkedin.com/in/regis-scyeur)** - Profil professionnel & Articles
 
 <div align="center">
 
