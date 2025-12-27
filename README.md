@@ -106,7 +106,7 @@ J'écoute d'abord. Vraiment. Ton métier, tes contraintes, tes ambitions. Ensuit
 - **🔗 CI/CD** : GitHub Actions pour build, tests et publication automatisés
 - **✅ Production-ready** : Utilisé en production chez nos clients
 
-## 🎓 Projets Académiques & Communautaires (Open Source)
+## 🎓 Projets éducatifs & communautaires (Open Source)
 
 | Projet | Description | Licence |
 |--------|-------------|---------|
@@ -153,9 +153,6 @@ gantt
     BilanAmel     :f3, after f2, 5d
 ```
 
-
-
-
 ## 💡 Localisations
 
 | Pays | Région |
@@ -170,8 +167,6 @@ gantt
 | **📦 Forfait** | Engagement sur un périmètre et un prix fixe |
 | **🎯 Mission** | Objectifs définis (périmètre / résultat), livrables identifiés (audit, architecture, intégration) |
 | **⏱️ Temps passé** | Facturation à l'heure, à la journée ou à la session, adapté à l'accompagnement et au support |
-
----
 
 ## 💡 Utilisation et inspiration
 
@@ -190,21 +185,21 @@ Vous êtes libre de vous inspirer de ce profil ! Si vous l'utilisez comme source
 
 Consultez le fichier [LICENSE](./LICENSE) pour plus de détails.
 
----
-
 ## 📫 Me Contacter
 
 <div align="center">
 
 ### ⭐ **Diagnostic Flash Gratuit - Roadmap 90 Jours**
 
-**[![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=rscyeur&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rscyeur/)** • **🦓 [ZebraPuma](https://zebrapuma.be)** • **🧠 [Un Autre Moi Coaching](https://unautremoi.org/)**
+**🦓 [Zebra Puma Services](https://zebrapuma.be)** • **🧠 [Un Autre Moi Coaching](https://unautremoi.org/)**
+
+**[![LinkedIn](https://img.shields.io/static/v1?label=LinkedIn&message=rscyeur&color=0A66C2&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rscyeur/)** 
 
 </div>
 
 ## 📚 Mes Activités
 
-- **[ZebraPuma](https://zebrapuma.be)** - Transformation Digitale pour PME
+- **[Zebra Puma Services](https://zebrapuma.be)** - Transformation Digitale pour PME
 - **[Un Autre Moi Coaching](https://unautremoi.org/)** - Coaching PNL & Développement Personnel
 - **[LinkedIn](https://www.linkedin.com/in/rscyeur)** - Profil professionnel & Articles
 
