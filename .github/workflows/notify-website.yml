@@ -1,0 +1,22 @@
+name: Notify Website on README Change
+
+on:
+  push:
+    branches: 
+      - main  # Adaptez si votre branche s'appelle 'master' ou autre
+    paths:
+      - 'README.md'  # Se déclenche uniquement si README. md change
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Send repository dispatch to website
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.DISPATCH_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/zebrapuma/zebrapuma-web/dispatches \
+            -d '{"event_type":"readme_updated","client_payload":{"repository":"regis-scyeur/Regis-Scyeur","file":"README.md"}}'
