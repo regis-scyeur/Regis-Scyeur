@@ -1,0 +1,208 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" style="overflow:visible">
+  <defs>
+    <!-- Pointe grise -->
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="10" markerHeight="10"
+            refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#555"/>
+    </marker>
+
+    <!-- Pointe rouge (plus grande) -->
+    <marker id="arrow-red" viewBox="0 0 12 12" markerWidth="12" markerHeight="12"
+            refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L12,6 L0,12 L3,6 Z" fill="#dc3545"/>
+    </marker>
+
+    <!-- Pointe violette -->
+    <marker id="arrow-purple" viewBox="0 0 10 10" markerWidth="10" markerHeight="10"
+            refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#6f42c1"/>
+    </marker>
+
+    <!-- Pointe bleue -->
+    <marker id="arrow-blue" viewBox="0 0 10 10" markerWidth="10" markerHeight="10"
+            refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#2088FF"/>
+    </marker>
+
+    <!-- Pointe verte -->
+    <marker id="arrow-green" viewBox="0 0 10 10" markerWidth="10" markerHeight="10"
+            refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 L3,5 Z" fill="#10b981"/>
+    </marker>
+  </defs>
+
+  <!-- Cercle principal et petites lignes -->
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#e0e0e0" stroke-width="4"/>
+
+  <!-- Arcs fléchés sur le périmètre (rayon=280, centre=400,400, arcs de 8.5° chacun) -->
+  <g fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrow)" stroke-linecap="round">
+    <!-- Arc 1: 10.75° à 19.25° (ÉCOUTE → ANALYSE) -->
+    <path d="M 452,126 A 280,280 0 0,1 493,139" />
+    <!-- Arc 2: 40.75° à 49.25° (ANALYSE → CO-CONCEPT) -->
+    <path d="M 583,189 A 280,280 0 0,1 611,223" />
+    <!-- Arc 3: 70.75° à 79.25° (CO-CONCEPT → DÉCISION) -->
+    <path d="M 665,301 A 280,280 0 0,1 673,355" />
+    <!-- Arc 4: 100.75° à 109.25° (DÉCISION → ARCHI) -->
+    <path d="M 673,445 A 280,280 0 0,1 665,499" />
+    <!-- Arc 5: 130.75° à 139.25° (ARCHI → DEV) -->
+    <path d="M 611,577 A 280,280 0 0,1 583,611" />
+    <!-- Arc 6: 160.75° à 169.25° (DEV → INTÉGRATION) -->
+    <path d="M 493,661 A 280,280 0 0,1 452,674" />
+    <!-- Arc 7: 190.75° à 199.25° (INTÉGRATION → DOCS) -->
+    <path d="M 348,674 A 280,280 0 0,1 307,661" />
+    <!-- Arc 8: 220.75° à 229.25° (DOCS → TEST) -->
+    <path d="M 217,611 A 280,280 0 0,1 189,577" />
+    <!-- Arc 9: 250.75° à 259.25° (TEST → MESURE) -->
+    <path d="M 135,499 A 280,280 0 0,1 127,445" />
+    <!-- Arc 10: 280.75° à 289.25° (MESURE → FORMATION) -->
+    <path d="M 127,355 A 280,280 0 0,1 135,301" />
+    <!-- Arc 11: 310.75° à 319.25° (FORMATION → AMÉLIORATION) -->
+    <path d="M 189,223 A 280,280 0 0,1 217,189" />
+    <!-- Arc 12: 340.75° à 349.25° (AMÉLIORATION → ÉCOUTE) -->
+    <path d="M 307,139 A 280,280 0 0,1 348,126" />
+  </g>
+
+  <!-- Connexions pointillées depuis le centre des bulles centrales (s'arrêtent avant les bulles externes) -->
+  <g stroke-width="1.5" stroke-dasharray="3,2" opacity="0.5" stroke-linecap="round">
+    <!-- Violet: DATA & IA (centre 400,340) → ÉCOUTE, ANALYSE, CO-CONCEPT, DÉCISION, MESURE -->
+    <g stroke="#6f42c1" marker-end="url(#arrow-purple)">
+      <path d="M 400,340 Q 375,240 400,172" fill="none" />
+      <path d="M 400,340 Q 475,250 508,199" fill="none" />
+      <path d="M 400,340 Q 520,285 593,276" fill="none" />
+      <path d="M 400,340 Q 560,345 629,389" fill="none" />
+      <path d="M 400,340 Q 260,360 171,389" fill="none" />
+    </g>
+
+    <!-- Bleu: CI/CD (centre 348,430) → ARCHI, DEV, INTÉGRATION, TEST, MESURE -->
+    <g stroke="#2088FF" marker-end="url(#arrow-blue)">
+      <path d="M 348,430 Q 500,465 593,522" fill="none" />
+      <path d="M 348,430 Q 460,510 505,604" fill="none" />
+      <path d="M 348,430 Q 365,550 389,629" fill="none" />
+      <path d="M 348,430 Q 260,470 203,514" fill="none" />
+      <path d="M 348,430 Q 230,415 172,407" fill="none" />
+    </g>
+
+    <!-- Vert: AGILE (centre 452,430) → ÉCOUTE, CO-CONCEPT, FORMATION, AMÉLIORATION, MESURE -->
+    <g stroke="#10b981" marker-end="url(#arrow-green)">
+      <path d="M 452,430 Q 420,280 409,171" fill="none" />
+      <path d="M 452,430 Q 560,350 603,295" fill="none" />
+      <path d="M 452,430 Q 320,380 203,286" fill="none" />
+      <path d="M 452,430 Q 385,310 290,200" fill="none" />
+      <path d="M 452,430 Q 300,415 172,405" fill="none" />
+    </g>
+  </g>
+
+  <!-- NŒUDS (bulles) -->
+  <g transform="translate(400, 340)">
+    <circle r="45" fill="#6f42c1" stroke="#59359a" stroke-width="3"/>
+    <text text-anchor="middle" dy="-8" fill="white" font-size="28">🧖‍♂️</text>
+    <text text-anchor="middle" dy="12" fill="white" font-size="11" font-weight="bold">DATA &amp; IA</text>
+    <text text-anchor="middle" dy="25" fill="white" font-size="8">GitHub Copilot</text>
+  </g>
+
+  <g transform="translate(348, 430)">
+    <circle r="45" fill="#2088FF" stroke="#1a6fd1" stroke-width="3"/>
+    <text text-anchor="middle" dy="-8" fill="white" font-size="28">⚙️</text>
+    <text text-anchor="middle" dy="12" fill="white" font-size="11" font-weight="bold">CI/CD</text>
+    <text text-anchor="middle" dy="25" fill="white" font-size="8">GitHub Actions</text>
+  </g>
+
+  <g transform="translate(452, 430)">
+    <circle r="45" fill="#10b981" stroke="#059669" stroke-width="3"/>
+    <text text-anchor="middle" dy="-8" fill="white" font-size="28">📋</text>
+    <text text-anchor="middle" dy="12" fill="white" font-size="11" font-weight="bold">AGILE</text>
+    <text text-anchor="middle" dy="25" fill="white" font-size="8">GitHub Projects</text>
+  </g>
+
+  <g transform="translate(400, 120)">
+    <circle r="45" fill="#6c757d" stroke="#495057" stroke-width="3"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="24">🎧</text>
+    <text text-anchor="middle" dy="22" fill="white" font-size="10" font-weight="bold">ÉCOUTE</text>
+  </g>
+
+  <g transform="translate(540, 158)">
+    <circle r="45" fill="#0d6efd" stroke="#0a58ca" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🔍</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">ANALYSE</text>
+  </g>
+
+  <g transform="translate(642, 260)">
+    <circle r="45" fill="#198754" stroke="#146c43" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🤝</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">CO-CONCEPT</text>
+  </g>
+
+  <g transform="translate(680, 400)">
+    <circle r="45" fill="#ffc107" stroke="#cc9a06" stroke-width="3"/>
+    <text text-anchor="middle" dy="5" fill="#333" font-size="22">⚖️</text>
+    <text text-anchor="middle" dy="22" fill="#333" font-size="10" font-weight="bold">DÉCISION</text>
+  </g>
+
+  <g transform="translate(642, 540)">
+    <circle r="45" fill="#fd7e14" stroke="#ca6510" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🏗️</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">ARCHI</text>
+  </g>
+
+  <g transform="translate(540, 642)">
+    <circle r="45" fill="#dc3545" stroke="#b02a37" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">💻</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">DEV</text>
+  </g>
+
+  <g transform="translate(400, 680)">
+    <circle r="45" fill="#17a2b8" stroke="#117a8b" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🔗</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">INTÉGRATION</text>
+  </g>
+
+  <g transform="translate(260, 642)">
+    <circle r="45" fill="#8b5cf6" stroke="#7c3aed" stroke-width="3"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">📚</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="10" font-weight="bold">DOCS</text>
+  </g>
+
+  <g transform="translate(120, 400)">
+    <circle r="45" fill="#20c997" stroke="#1aa179" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">📈</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">MESURE</text>
+  </g>
+
+  <g transform="translate(158, 260)">
+    <circle r="45" fill="#8B5CF6" stroke="#6d28d9" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🎓</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">FORMATION</text>
+  </g>
+
+  <g transform="translate(260, 158)">
+    <circle r="45" fill="#6610f2" stroke="#520dc2" stroke-width="2"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="20">🔄</text>
+    <text text-anchor="middle" dy="20" fill="white" font-size="9">AMÉLIORATION</text>
+  </g>
+
+  <!-- Chemin rouge - TEST → CO-CONCEPT (Si KO) - VARIANTE 1: Quadratique -->
+  <path d="M 158,540 Q 500,650 642,312" fill="none" stroke="#dc3545" stroke-width="2.5" marker-end="url(#arrow-red)" stroke-linecap="round" />
+  
+  <!-- Label "Si KO" sur la flèche rouge -->
+  <text x="250" y="545" fill="#dc3545" font-size="12" font-weight="bold" text-anchor="middle">Si KO</text>
+
+  <!-- Bulle TEST en avant plan (pour recouvrir le départ de la flèche rouge) -->
+  <g transform="translate(158, 540)">
+    <circle r="45" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
+    <text text-anchor="middle" dy="5" fill="white" font-size="22">🧪</text>
+    <text text-anchor="middle" dy="22" fill="white" font-size="11" font-weight="bold">TEST</text>
+  </g>
+
+  <!-- Watermark Zebra Puma Logo (fond 800x850, opacity 0.5) -->
+  <g opacity="0.125" pointer-events="none">
+    <image x="0" y="100" width="800" height="600" href="assets/zebrapuma-logo.png" />
+  </g>
+
+  <!-- Logo Zebra Puma dans le coin inférieur droit -->
+  <image x="650" y="700" width="120" height="90" href="ZEBRAPUMA-400-300.png" opacity="0.8" />
+
+  <!-- Légendes -->
+  <text x="400" y="750" text-anchor="middle" fill="#333" font-size="20" font-weight="bold">CYCLE AGILE • Transformation Continue</text>
+  <text x="400" y="770" text-anchor="middle" fill="#666" font-size="12">Co-construction • Formation • Montée en compétence</text>
+  <text x="400" y="780" text-anchor="middle" fill="#999" font-size="10">© Régis SCYEUR - Zebra Puma Services</text>
+</svg>
