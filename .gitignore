@@ -104,3 +104,4 @@ obj/
 .tmp/
 tmp/
 temp/
+*. code-workspace
