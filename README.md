@@ -59,7 +59,10 @@ J’écoute d'abord ton contexte, tes contraintes, ta vision.
 Ensuite, **on co-conçoit** une trajectoire réaliste, mesurable et durable.
 
 <div align="center">
-<img src="assets/zebrapuma-cycle-agile.svg" alt="Cycle Agile — Écoute, Co-conception, Implémentation,|
+<img src="assets/zebrapuma-cycle-agile.svg" alt="Cycle Agile — Écoute, Co-conception, Implémentation">
+</div>
+
+| Domaine | Description |
 |--------|-------------|
 | **🏗 Architecture & Développement** | .NET Framework & .NET 10, SQL Server, solutions robustes |
 | **🔗 Intégration Multi-Systèmes** | API REST/SOAP, ERP, CRM, e-commerce |
@@ -119,8 +122,10 @@ PME, ETI, intégrateurs ERP, cabinets de conseil, startups industrielles, équip
 
 ## 📫 Me Contacter
 
+- 🌐 **Portfolio** : https://regis.scyeur.net  
 - 🦓 **ZebraPuma Services** : https://zebrapuma.be  
 - 🧠 **Un Autre Moi Coaching** : https://unautremoi.org  
+- 🔀 **xRefIQ** : https://xrefiq.com  
 - 🔗 **LinkedIn** : https://www.linkedin.com/in/regis-scyeur/  
 - 🎥 **YouTube** : https://youtube.com/@regis-scyeur  
 
@@ -129,7 +134,7 @@ PME, ETI, intégrateurs ERP, cabinets de conseil, startups industrielles, équip
 ## 📄 Plus d'informations
 
 La version détaillée (complète) de ce profil est disponible ici :  
-➡️ [👉 **more-info.md**](more-info.md
+➡️ [👉 **MORE-INFOS.md**](MORE-INFOS.md)
 
 ---
 

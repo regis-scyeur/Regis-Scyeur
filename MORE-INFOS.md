@@ -66,8 +66,12 @@ Ensuite, **on co-conçoit** une direction **réaliste, durable et mesurable**, c
 # 🔄 Mon Approche (visualisation)
 
 <div align="center">
-  
-![Cycle Agile](assets/zebrapuma-cycle-agileintervention
+
+![Cycle Agile](assets/zebrapuma-cycle-agile.svg)
+
+</div>
+
+## Domaines d'intervention
 
 | Domaine | Description |
 |--------|-------------|
