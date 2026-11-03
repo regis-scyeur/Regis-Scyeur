@@ -5,7 +5,7 @@
 🧠 **Un Autre Moi Coaching** — Accompagnement Humain  
 🌍 Belgique & Maroc • Remote disponible
 
-**.NET Framework & .NET 10 • SQL Server • API & ERP Integration • CI/CD GitHub Actions • Data-Mining & IA • Coaching PNL**
+**.NET Framework & .NET 10 • SQL Server • API & ERP Integration • CI/CD GitHub Actions • Data & IA • Coaching PNL**
 
 ---
 
